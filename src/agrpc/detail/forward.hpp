@@ -39,9 +39,7 @@ struct RepeatedlyRequestContextAccess;
 template <class Traits>
 struct ResolvedPollContextTraits;
 
-struct IsGrpcContextStoppedPredicate;
-
-template <class Executor, class Traits, class StopPredicate>
+template <class Poller>
 struct PollContextHandler;
 
 class GenericRPCContext;
